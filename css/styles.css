@@ -193,9 +193,10 @@ ul {
 
 /* Hero */
 .hero-section {
-  background-color: var(--dark-bg-color);
+  /* background-color: var(--dark-bg-color); */
   padding-top: 200px;
   padding-bottom: 200px;
+  border-image: url(../images/Hero/bg-hero.jpg);
 }
 
 .hero-title {
@@ -455,6 +456,19 @@ ul {
   letter-spacing: 0.48px;
 }
 
+/* Regular customers  */
+.regular-customers-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.regular-customers-titel {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-text-color);
+}
 /* Footer */
 
 .footer-section {
