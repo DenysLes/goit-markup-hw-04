@@ -486,7 +486,6 @@ ul {
   justify-content: center;
 
   width: 206px;
-  height: 44px;
 
   margin-left: auto;
   margin-right: auto;
@@ -495,10 +494,11 @@ ul {
 .team-social-link-item {
   text-align: center;
 
-  background-color: #d41111;
-
   margin-top: 16px;
   margin-right: 10px;
+}
+.regular-costumers-icon {
+  fill: #afb1b8;
 }
 
 /* Regular customers  */
@@ -551,6 +551,10 @@ ul {
   padding-bottom: 60px;
 
   background: var(--dark-bg-color);
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   display: block;
@@ -613,14 +617,23 @@ ul {
 /* Footer icons */
 
 .footer-icon-link-title {
+  width: 116px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #fff;
-  /* margin-bottom: 20px; */
+
+  margin-bottom: 20px;
 }
-.footer-sicial-icon-list {
+.footer-social-link-list {
   display: flex;
+  justify-content: space-around;
+  width: 206px;
 }
-.footer-sicial-icon {
-  color: #fff;
+.footer-social-icon {
+  fill: #fff;
   margin-right: 10px;
 }
 
