@@ -244,19 +244,6 @@ ul {
   background: var(--main-bg-color);
   padding-top: 94px;
 }
-.our-acyivity-icon-list {
-  display: flex;
-}
-
-.our-acyivity-icon {
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  text-align: center;
-
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
 
 .our-activity-list {
   display: flex;
@@ -600,11 +587,6 @@ ul {
 
 /* Footer icons */
 
-.footer-container {
-}
-
-.footer-icons {
-}
 .footer-icon-link-title {
   color: #fff;
   /* margin-bottom: 20px; */
