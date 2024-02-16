@@ -244,6 +244,25 @@ ul {
   background: var(--main-bg-color);
   padding-top: 94px;
 }
+.our-activity-icon-list {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 1170px;
+}
+.our-activity-icon {
+  border-radius: 4px;
+  width: 270px;
+  /* height: 120px; */
+  background: #f5f4fa;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+}
+.activity-icon {
+}
 
 .our-activity-list {
   display: flex;
