@@ -131,6 +131,7 @@ ul {
 .header-list-contact {
   margin-left: auto;
   display: flex;
+  align-items: center;
 }
 .group-link {
   margin-right: 50px;
@@ -190,6 +191,8 @@ ul {
 .header-link-phone:focus {
   color: var(--accent-color);
 }
+
+/* Header icons */
 
 /* Hero */
 .hero-section {
@@ -520,6 +523,7 @@ ul {
   height: 44px;
   background-color: var(--accent-color);
   border-radius: 50%;
+  fill: #fff;
 }
 .social-link:hover {
   background-color: var(--accent-color);
