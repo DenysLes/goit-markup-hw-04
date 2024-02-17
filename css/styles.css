@@ -497,8 +497,32 @@ ul {
   margin-top: 16px;
   margin-right: 10px;
 }
-.regular-costumers-icon {
-  fill: #afb1b8;
+.team-social-link-item:last-child {
+  margin-right: 0;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #dd3535;
+  border-radius: 50%;
+}
+.social-link-accent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+.social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* Regular customers  */
@@ -532,7 +556,12 @@ ul {
 .regular-customers-item:last-child {
   margin-right: 0;
 }
+.regular-costumers-icon {
+  fill: #afb1b8;
+}
+
 .regular-customers-icon {
+  fill: #afb1b8;
   padding-top: 32px;
 }
 
@@ -631,10 +660,25 @@ ul {
   display: flex;
   justify-content: space-around;
   width: 206px;
+
+  /* display: flex;
+  justify-content: center;
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 .footer-social-icon {
   fill: #fff;
   margin-right: 10px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
 
 /* portfolio */
