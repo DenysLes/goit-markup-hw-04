@@ -386,6 +386,9 @@ ul {
 .team-name {
   margin-bottom: 10px;
 }
+.team-proffesion {
+  margin-bottom: 16px;
+}
 .our-team-title {
   text-align: center;
   font-size: 36px;
@@ -506,7 +509,7 @@ ul {
   align-items: center;
   width: 44px;
   height: 44px;
-  /* background-color: #fff; */
+
   border-radius: 50%;
 }
 .social-link-accent {
@@ -526,6 +529,12 @@ ul {
 }
 .team-members-icon {
   fill: #afb1b8;
+}
+.team-members-icon-accent {
+  fill: #fff;
+}
+.social-link:hover .team-members-icon {
+  fill: #fff;
 }
 
 /* Regular customers  */
