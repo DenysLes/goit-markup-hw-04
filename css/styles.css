@@ -193,7 +193,17 @@ ul {
 }
 
 /* Header icons */
+.header-link {
+  display: contents;
+}
 
+.header-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+}
+.header-link:hover .header-icon {
+  fill: var(--accent-color);
+}
 /* Hero */
 .hero-section {
   max-width: 1600px;
