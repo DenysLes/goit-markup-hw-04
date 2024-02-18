@@ -908,11 +908,11 @@ ul {
   border-radius: 4px;
 }
 /* Portfolio items */
-.pirtfolio-item-list {
+.portfolio-item-list {
   display: flex;
   flex-wrap: wrap;
 }
-.pirtfolio-item {
+.portfolio-item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
