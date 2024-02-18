@@ -916,7 +916,6 @@ ul {
 .portfolio-items-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -30px;
 }
 .portfolio-item {
   width: 370px;
