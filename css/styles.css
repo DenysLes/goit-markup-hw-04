@@ -909,7 +909,11 @@ ul {
 }
 /* Portfolio items */
 
-.portfolio-item-list {
+.portfolio-container {
+  box-sizing: content-box;
+}
+
+.portfolio-items-list {
   display: flex;
   flex-wrap: wrap;
 }
