@@ -908,6 +908,7 @@ ul {
   border-radius: 4px;
 }
 /* Portfolio items */
+
 .portfolio-item-list {
   display: flex;
   flex-wrap: wrap;
