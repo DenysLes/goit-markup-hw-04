@@ -970,3 +970,24 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
+/* portfoli header icons */
+.portfolio-group-link{
+display: contents;
+color: var(--secondary-text-color);
+}
+
+.portfolio-group-link:hover{
+  fill: var(--accent-color);
+}
+
+.portfolio-group-link:hover .header-icon {
+  fill: var(--accent-color);
+}
+
+.portfolio-header-icon{
+  fill: var(--secondary-text-color);
+margin-right: 10px;
+}
+.portfolio-header-icon:hover{
+  fill: var(--accent-color);
