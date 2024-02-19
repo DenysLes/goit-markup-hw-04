@@ -712,7 +712,7 @@ ul {
 .footer-social-link-list {
   display: flex;
   align-items: baseline;
-  width: 206px;
+
 }
 .footer-social-link-item {
   margin-right: 10px;
@@ -733,17 +733,10 @@ ul {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
-.footer-social-link-accent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-}
+
+
 .footer-social-icon {
-  fill: #fff;
+fill:white;
 }
 
 /* portfolio */
@@ -859,7 +852,7 @@ ul {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 .filters-items-button:focus {
   background: var(--accent-color);
@@ -867,8 +860,8 @@ ul {
 
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
-
-  border-radius: 4px;
+/* 
+  border-radius: 4px; */
 }
 
 .filters-items-button-accent {
@@ -879,7 +872,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-text-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
 
   background: var(--accent-color);
   color: #fff;
@@ -896,7 +889,7 @@ ul {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 .filters-items-button-accent:focus {
   background: var(--accent-color);
@@ -905,7 +898,7 @@ ul {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 /* Portfolio items */
 
