@@ -213,7 +213,10 @@ align-items: center;
 .header-icon {
 
   margin-right: 10px;
-  fill: var(--secondary-text-color);
+  /* fill: var(--secondary-text-color); */
+}
+.header-link-mail:hover .header-icon{
+fill: var(--accent-color);
 }
 
 
