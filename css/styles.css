@@ -213,7 +213,7 @@ align-items: center;
 .header-icon {
 
   margin-right: 10px;
-  /* fill: var(--secondary-text-color); */
+
 }
 .header-link-mail:hover .header-icon{
 fill: var(--accent-color);
@@ -626,12 +626,9 @@ justify-content: center;
 .regular-customers-item:focus .regular-costumers-icon-item{
   fill: var(--accent-color);
 }
-.regular-costumers-icon:focus{
-color: var(--accent-color);
-}
 
-.regular-costumers-icon:focus{
-fill: var(--accent-color);
+.regular-costumers-icon-link:focus{
+  fill: var(--accent-color);
 }
 
 
