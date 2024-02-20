@@ -152,8 +152,7 @@ ul {
 
 .header-link-phone {
   text-decoration: none;
-  width: 135px;
-  height: 16px;
+
   font-family: var(--main-font);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -205,10 +204,10 @@ fill: var(--accent-color);
 
 
 /* Header icons */
-.header-link {
 
-  /* align-items: center;
-  justify-content: center; */
+.header-link{
+display: flex;
+align-items: center;
 }
 
 .header-icon {
@@ -216,6 +215,8 @@ fill: var(--accent-color);
   margin-right: 10px;
   fill: var(--secondary-text-color);
 }
+
+
 
 /* Hero */
 .hero-section {
@@ -989,18 +990,6 @@ width: 370px;
 }
 
 /* portfoli header icons */
-.portfolio-group-link{
-display: contents;
-color: var(--secondary-text-color);
-}
-
-.portfolio-group-link:hover{
-  fill: var(--accent-color);
-}
-
-.portfolio-group-link:hover .header-icon {
-  fill: var(--accent-color);
-}
 
 .portfolio-header-icon{
   fill: var(--secondary-text-color);
