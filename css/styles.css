@@ -211,6 +211,9 @@ ul {
 .header-link-mail:hover {
 color: var(--accent-color);
 }
+.header-link-mail:focus {
+  color: var(--accent-color);
+  }
 
 /* Hero */
 .hero-section {
