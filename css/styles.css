@@ -218,6 +218,9 @@ align-items: center;
 .header-link-mail:hover .header-icon{
 fill: var(--accent-color);
 }
+.header-icon:hover .header-link-mail{
+  fill: var(--accent-color);
+}
 
 
 
@@ -257,7 +260,6 @@ fill: var(--accent-color);
   text-align: center;
   width: 216px;
   height: 50px;
-  flex-shrink: 0;
   border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
@@ -381,7 +383,7 @@ fill: var(--accent-color);
   line-height: 1.71;
   width: 270px;
   height: 72px;
-  flex-shrink: 0;
+
 
   color: var(--secondary-text-color);
   letter-spacing: 0.42px;
@@ -586,7 +588,6 @@ fill: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
   width: 170px;
   height: 92px;
 
@@ -597,7 +598,7 @@ fill: var(--accent-color);
 }
 .regular-customers-item:hover {
   text-align: center;
-  width: 170px;
+ 
 
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -623,12 +624,11 @@ justify-content: center;
 .regular-customers-item:hover .regular-costumers-icon-item{
   fill: var(--accent-color);
 }
-.regular-customers-item:focus .regular-costumers-icon-item{
-  fill: var(--accent-color);
-}
 
-.regular-costumers-icon-link:focus{
-  fill: var(--accent-color);
+
+.regular-costumers-icon-link:focus .regular-costumers-icon-item{
+
+fill: var(--accent-color);
 }
 
 
@@ -855,7 +855,7 @@ fill:white;
   color: var(--main-text-color);
   background: var(--secondary-bg-color);
   border-radius: 4px;
-
+border: none;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -889,7 +889,7 @@ fill:white;
   text-align: center;
   color: var(--main-text-color);
   border-radius: 4px;
-
+border: none;
   background: var(--accent-color);
   color: #fff;
 
@@ -937,12 +937,7 @@ fill:white;
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-/* .portfolio-item-link{
-display: block;
-}
-.portfolio-item-blok{
-display: block;
-} */
+
 .portfolio-item-blok:hover{
 display: block;
 box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
@@ -972,7 +967,7 @@ width: 370px;
 }
 
 .portfolio-product-name {
-  text-decoration: none;
+text-decoration:none;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -982,7 +977,7 @@ width: 370px;
   margin-bottom: 4px;
 }
 .portfolio-product {
-  text-decoration: none;
+text-decoration: none;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -995,6 +990,7 @@ width: 370px;
   fill: var(--secondary-text-color);
 margin-right: 10px;
 }
-.portfolio-header-icon:hover{
+/* .portfolio-header-icon:hover{
   fill: var(--accent-color);
-}
+} */
+
