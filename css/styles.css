@@ -195,10 +195,10 @@ fill: var(--accent-color);
 .header-link-phone:focus {
   color: var(--accent-color);
 }
-
-.header-icon :focus{
+.header-link:hover .header-icon  {
 fill: var(--accent-color);
 }
+
 
 
 
@@ -206,7 +206,7 @@ fill: var(--accent-color);
 /* Header icons */
 
 .header-link{
-display: flex;
+display: inline-flex;
 align-items: center;
 }
 
@@ -215,12 +215,10 @@ align-items: center;
   margin-right: 10px;
 
 }
-.header-link-mail:hover .header-icon{
+.header-icon:hover .icon-item{
 fill: var(--accent-color);
 }
-.header-icon:hover .header-link-mail{
-  fill: var(--accent-color);
-}
+
 
 
 
@@ -954,6 +952,11 @@ width: 370px;
   border: 1px solid #eee;
   width: 370px;
 }
+
+.portfoli-item-link{
+  text-decoration: none;
+}
+
 
 
 .portfolio-item-title {
