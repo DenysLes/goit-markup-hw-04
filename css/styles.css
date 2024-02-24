@@ -909,16 +909,16 @@ ul {
   margin-bottom: 0;
 }
 
-.portfoli-item-link {
+.portfolio-item-link {
   display: block;
   text-decoration: none;
 }
-.portfoli-item-link:hover {
+.portfolio-item-link:hover {
   display: block;
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
-  border: 1px solid #eee;
+
 }
 
 .portfoli-item-link:focus {
@@ -926,7 +926,7 @@ ul {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
-  border: 1px solid #eee;
+
 }
 
 .portfolio-item-title {
